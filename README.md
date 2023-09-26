@@ -12,7 +12,7 @@ In the figure above, we show that **NTK-attack** can get the attack success rate
 ---
 
 We also show the comparsion between **NTK-attack** and PGD (white-box attack) on a single image random sampled from svhn-gray dataset. 
-<img src="./fig2.png" width="80%">
+<img src="https://github.com/hhorace/NTK-attack/blob/main/fig2.png" width="80%">
 The image above in right column is PGD with $\epsilon=0.03$(L-inf) and 1k random start; the middle column is **NTK-attack**, same with $\epsilon=0.03$(L-inf) and 1k random start; the left column is the original image without perturbation. The top row is the loss while the bottom row is the output logits.
 
 ---
